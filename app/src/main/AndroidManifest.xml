@@ -33,11 +33,11 @@
 
 
     <application
+        android:name=".MyApp"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:name=".MyApp"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
             <intent-filter>
@@ -55,18 +55,20 @@
             android:name="com.baidu.location.f"
             android:enabled="true"
             android:process=":remote" />
-
+        <!--聊天详情界面-->
         <activity
             android:name="com.im.openimlib.activity.ChatActivity"
             android:windowSoftInputMode="adjustResize|stateHidden">
             <intent-filter>
-                <action android:name="com.openim.activity.chatactivity"/>
-                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="com.openim.activity.chatactivity" />
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name="com.im.openimlib.activity.ShowImageActivity"/>
-
+        <!-- 聊天详情点击图片展示大图界面-->
+        <activity android:name="com.im.openimlib.activity.ShowImageActivity" />
+        <!--主服务-->
         <service android:name="com.im.openimlib.service.IMService" />
+        <!-- AlarmManager广播接收者 定时唤醒CPU-->
         <receiver android:name="com.im.openimlib.receiver.TickAlarmReceiver" />
         <!-- 百度地图界面-->
         <activity android:name="com.im.openimlib.baidumap.BaiduMapActivity" />

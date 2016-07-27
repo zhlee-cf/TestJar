@@ -2,91 +2,87 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:gravity="center" >
+    android:gravity="center">
 
     <LinearLayout
         android:id="@+id/voice_rcd_hint_rcding"
         android:layout_width="wrap_content"
-        android:layout_height="140.0dip"
+        android:layout_height="@dimen/dimen_140dp"
         android:gravity="bottom|center"
-        android:orientation="horizontal"
-         >
+        android:orientation="horizontal">
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="fill_parent"
             android:background="@drawable/voice_rcd_hint_bg"
             android:gravity="bottom|center"
-            android:minWidth="140.0dip"
+            android:minWidth="@dimen/dimen_140dp"
             android:orientation="horizontal"
-            android:paddingLeft="25.0dip" >
+            android:paddingLeft="@dimen/dimen_25dp">
 
             <ImageView
                 android:id="@+id/imageView1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="15.0dip"
-                android:layout_marginRight="4.0dip"
+                android:layout_marginBottom="@dimen/dimen_15dp"
+                android:layout_marginRight="@dimen/dimen_4dp"
                 android:src="@mipmap/voice_rcd_hint" />
 
             <ImageView
                 android:id="@+id/volume"
-                android:layout_width="43sp"
+                android:layout_width="@dimen/dimen_43dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom"
-                android:layout_marginTop="10dip"
-                android:src="@mipmap/amp1"
-                android:layout_marginBottom="10dip"
-                 />
+                android:layout_marginBottom="@dimen/dimen_10dp"
+                android:layout_marginTop="@dimen/dimen_10dp"
+                android:src="@mipmap/amp1" />
         </LinearLayout>
 
         <ImageView
             android:id="@+id/img1"
-            android:layout_width="30.0dip"
-            android:layout_height="30.0dip"
-            android:layout_marginLeft="10.0dip"
-            android:layout_marginRight="20.0dip"
+            android:layout_width="@dimen/dimen_30dp"
+            android:layout_height="@dimen/dimen_30dp"
+            android:layout_marginLeft="@dimen/dimen_10dp"
+            android:layout_marginRight="@dimen/dimen_20dp"
             android:background="@mipmap/voice_rcd_cancel_bg"
-            android:padding="7.0dip"
-            android:src="@mipmap/rcd_cancel_icon"  />
+            android:padding="@dimen/dimen_7dp"
+            android:src="@mipmap/rcd_cancel_icon" />
 
         <LinearLayout
             android:id="@+id/del_re"
-            android:layout_width="140.0dip"
-            android:layout_height="140.0dip"
-            android:layout_marginLeft="10.0dip"
+            android:layout_width="@dimen/dimen_140dp"
+            android:layout_height="@dimen/dimen_140dp"
+            android:layout_marginLeft="@dimen/dimen_10dp"
             android:background="@mipmap/voice_rcd_cancel_bg_focused"
             android:gravity="center"
             android:orientation="vertical"
-            android:visibility="gone" >
+            android:visibility="gone">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:text="取消"
-                android:textColor="#ffffff"
-                android:textSize="13.0dip" />
+                android:text="@string/cancel"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/dimen_13dp" />
 
             <ImageView
                 android:id="@+id/sc_img1"
-                android:layout_width="75.0dip"
-                android:layout_height="75.0dip"
-                android:layout_marginTop="12.0dip"
-                android:src="@mipmap/rcd_cancel_icon"
-                
-                 />      
+                android:layout_width="@dimen/dimen_75dp"
+                android:layout_height="@dimen/dimen_75dp"
+                android:layout_marginTop="@dimen/dimen_12dp"
+                android:src="@mipmap/rcd_cancel_icon" />
         </LinearLayout>
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/voice_rcd_hint_loading"
-        android:layout_width="140.0dip"
-        android:layout_height="140.0dip"
+        android:layout_width="@dimen/dimen_140dp"
+        android:layout_height="@dimen/dimen_140dp"
         android:background="@drawable/voice_rcd_hint_bg"
         android:gravity="center"
         android:orientation="horizontal"
-        android:visibility="gone" >
+        android:visibility="gone">
 
         <ProgressBar
             android:id="@+id/progressBar1"
@@ -97,12 +93,12 @@
 
     <LinearLayout
         android:id="@+id/voice_rcd_hint_tooshort"
-        android:layout_width="140.0dip"
-        android:layout_height="140.0dip"
+        android:layout_width="@dimen/dimen_140dp"
+        android:layout_height="@dimen/dimen_140dp"
         android:background="@drawable/voice_rcd_hint_bg"
         android:gravity="center"
         android:orientation="vertical"
-        android:visibility="gone" >
+        android:visibility="gone">
 
         <ImageView
             android:layout_width="wrap_content"
@@ -112,9 +108,9 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="15.0dip"
-            android:text="时间太短"
-            android:textColor="#ffffff" />
+            android:layout_marginBottom="@dimen/dimen_15dp"
+            android:text="@string/too_short"
+            android:textColor="@android:color/white" />
     </LinearLayout>
 
 </LinearLayout>

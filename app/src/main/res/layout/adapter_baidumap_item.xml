@@ -9,9 +9,9 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="@dimen/dimen_10dp"
         android:layout_marginTop="@dimen/dimen_10dp"
-        android:text="[位置]"
+        android:text="@string/location_map"
         android:textColor="#3f3f3f"
-        android:textSize="@dimen/font_size_small" />
+        android:textSize="@dimen/font_14sp" />
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -25,9 +25,8 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/dimen_6dp"
             android:layout_marginLeft="@dimen/dimen_10dp"
-            android:text="郑州大学"
             android:textColor="@color/gray"
-            android:textSize="@dimen/font_size_xsmall" />
+            android:textSize="@dimen/font_14sp" />
 
         <ImageView
             android:id="@+id/adapter_baidumap_location_checked"
