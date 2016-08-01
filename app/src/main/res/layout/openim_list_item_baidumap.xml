@@ -9,7 +9,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="@dimen/dimen_10dp"
         android:layout_marginTop="@dimen/dimen_10dp"
-        android:text="@string/location_map"
+        android:text="@string/openim_string_location_map"
         android:textColor="#3f3f3f"
         android:textSize="@dimen/font_14sp" />
 
@@ -25,7 +25,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/dimen_6dp"
             android:layout_marginLeft="@dimen/dimen_10dp"
-            android:textColor="@color/gray"
+            android:textColor="@color/openim_color_gray"
             android:textSize="@dimen/font_14sp" />
 
         <ImageView
@@ -35,7 +35,7 @@
             android:layout_alignParentRight="true"
             android:layout_marginBottom="@dimen/dimen_6dp"
             android:layout_marginRight="@dimen/dimen_16dp"
-            android:background="@mipmap/icon_checked"
+            android:background="@drawable/openim_icon_checked"
             android:visibility="visible" />
     </RelativeLayout>
 </RelativeLayout>

@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/pop_chat_bg"
+    android:background="@drawable/openim_pop_chat_bg"
     android:gravity="center"
     android:orientation="horizontal"
     android:padding="0dp">
@@ -13,7 +13,7 @@
         android:layout_height="fill_parent"
         android:gravity="center"
         android:paddingBottom="@dimen/dimen_6dp"
-        android:text="@string/copy"
+        android:text="@string/openim_string_copy"
         android:textColor="@android:color/white" />
 
     <View
@@ -28,7 +28,7 @@
         android:layout_height="fill_parent"
         android:gravity="center"
         android:paddingBottom="@dimen/dimen_6dp"
-        android:text="@string/delete"
+        android:text="@string/openim_string_delete"
         android:textColor="@android:color/white" />
 
 </LinearLayout>

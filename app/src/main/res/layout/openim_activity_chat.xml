@@ -11,10 +11,10 @@
             android:id="@+id/tv_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/color_org"
+            android:background="@color/openim_color_org"
             android:gravity="center"
             android:padding="@dimen/dimen_10dp"
-            android:text="@string/my_friends"
+            android:text="@string/openim_string_my_friends"
             android:textColor="@android:color/white"
             android:textSize="@dimen/font_20sp" />
 
@@ -24,7 +24,7 @@
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
             android:layout_marginLeft="@dimen/dimen_10dp"
-            android:background="@mipmap/icon_top_back" />
+            android:background="@drawable/openim_icon_top_back" />
 
         <TextView
             android:id="@+id/tv_back"
@@ -33,7 +33,7 @@
             android:layout_centerVertical="true"
             android:layout_toRightOf="@id/ib_back"
             android:padding="@dimen/dimen_10dp"
-            android:text="@string/chat"
+            android:text="@string/openim_string_chat"
             android:textSize="@dimen/font_16sp" />
 
 
@@ -43,7 +43,7 @@
             android:layout_height="@dimen/dimen_40dp"
             android:layout_alignParentRight="true"
             android:layout_centerVertical="true"
-            android:background="@mipmap/title_minus"
+            android:background="@drawable/openim_title_minus"
             android:textColor="@android:color/white" />
     </RelativeLayout>
 
@@ -59,7 +59,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/chat_bottom"
+            android:background="@color/openim_color_chat_bottom"
             android:orientation="horizontal">
 
             <ImageView
@@ -68,7 +68,7 @@
                 android:layout_height="@dimen/dimen_35dp"
                 android:layout_gravity="bottom"
                 android:layout_marginLeft="@dimen/dimen_5dp"
-                android:src="@mipmap/icon_chat_voice" />
+                android:src="@drawable/openim_icon_chat_voice" />
 
             <ImageView
                 android:id="@+id/iv_keyboard"
@@ -76,7 +76,7 @@
                 android:layout_height="@dimen/dimen_35dp"
                 android:layout_gravity="bottom"
                 android:layout_marginLeft="@dimen/dimen_5dp"
-                android:src="@mipmap/icon_chat_keyboard"
+                android:src="@drawable/openim_icon_chat_keyboard"
                 android:visibility="gone" />
 
             <com.rockerhieu.emojicon.EmojiconEditText
@@ -86,7 +86,7 @@
                 android:layout_marginLeft="@dimen/dimen_5dp"
                 android:layout_marginRight="@dimen/dimen_5dp"
                 android:layout_weight="1"
-                android:background="@drawable/et_bg"
+                android:background="@drawable/openim_et_bg"
                 android:maxHeight="@dimen/dimen_105dp"
                 android:minHeight="@dimen/dimen_35dp"
                 android:padding="@dimen/dimen_2dp"
@@ -97,11 +97,11 @@
                 android:layout_width="0dp"
                 android:layout_height="@dimen/dimen_35dp"
                 android:layout_weight="1"
-                android:background="@drawable/btn_voice_record"
+                android:background="@drawable/openim_btn_voice_record"
                 android:clickable="true"
                 android:focusable="true"
                 android:gravity="center"
-                android:text="@string/press_to_say"
+                android:text="@string/openim_string_press_to_say"
                 android:textSize="@dimen/font_16sp"
                 android:visibility="gone" />
 
@@ -110,7 +110,7 @@
                 android:layout_width="@dimen/dimen_35dp"
                 android:layout_height="@dimen/dimen_35dp"
                 android:layout_gravity="bottom"
-                android:src="@drawable/btn_chat_emo_selector" />
+                android:src="@drawable/openim_btn_chat_emo_selector" />
 
             <ImageView
                 android:id="@+id/iv_add"
@@ -118,7 +118,7 @@
                 android:layout_height="@dimen/dimen_35dp"
                 android:layout_gravity="bottom"
                 android:layout_marginLeft="@dimen/dimen_5dp"
-                android:src="@drawable/btn_chat_add_selector" />
+                android:src="@drawable/openim_btn_chat_add_selector" />
 
             <TextView
                 android:id="@+id/tv_send"
@@ -126,10 +126,10 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom"
                 android:layout_marginRight="@dimen/dimen_5dp"
-                android:background="@drawable/btn_login_selector"
+                android:background="@drawable/openim_btn_login_selector"
                 android:gravity="center"
                 android:padding="@dimen/dimen_5dp"
-                android:text="@string/send"
+                android:text="@string/openim_string_send"
                 android:textColor="@android:color/white"
                 android:textSize="@dimen/font_14sp"
                 android:visibility="gone" />
@@ -153,7 +153,7 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="@dimen/dimen_1dp"
-        android:background="@color/gray" />
+        android:background="@color/openim_color_gray" />
 
     <com.im.openimlib.view.XListView
         android:id="@+id/lv_messages"
@@ -179,7 +179,7 @@
         android:visibility="gone">
 
         <include
-            layout="@layout/voice_rcd_hint_window"
+            layout="@layout/openim_voice_rcd_hint_window"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center" />

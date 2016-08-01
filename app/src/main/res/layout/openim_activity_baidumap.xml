@@ -14,10 +14,10 @@
             android:id="@+id/tv_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/color_org"
+            android:background="@color/openim_color_org"
             android:gravity="center"
             android:padding="@dimen/dimen_10dp"
-            android:text="@string/location"
+            android:text="@string/openim_string_location"
             android:textColor="@android:color/white"
             android:textSize="@dimen/font_20sp" />
 
@@ -27,7 +27,7 @@
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
             android:layout_marginLeft="@dimen/dimen_10dp"
-            android:background="@mipmap/icon_top_back" />
+            android:background="@drawable/openim_icon_top_back" />
 
         <Button
             android:id="@+id/btn_send"
@@ -36,9 +36,9 @@
             android:layout_alignParentRight="true"
             android:layout_centerVertical="true"
             android:layout_marginRight="@dimen/dimen_5dp"
-            android:background="@drawable/btn_login_selector"
+            android:background="@drawable/openim_btn_login_selector"
             android:padding="@dimen/dimen_5dp"
-            android:text="@string/send"
+            android:text="@string/openim_string_send"
             android:textColor="@android:color/white"
             android:textSize="@dimen/font_14sp" />
     </RelativeLayout>
@@ -62,7 +62,7 @@
             android:layout_alignParentRight="true"
             android:layout_marginBottom="@dimen/dimen_13dp"
             android:layout_marginRight="@dimen/dimen_13dp"
-            android:background="@mipmap/icon_arrow_bg"
+            android:background="@drawable/openim_icon_arrow_bg"
             android:padding="@dimen/dimen_14dp" />
 
         <ImageView
@@ -71,7 +71,7 @@
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
             android:paddingBottom="@dimen/dimen_50dp"
-            android:src="@mipmap/icon_local" />
+            android:src="@drawable/openim_icon_local" />
     </RelativeLayout>
 
     <ListView
@@ -87,7 +87,7 @@
         android:layout_height="@dimen/dimen_250dp"
         android:layout_gravity="center"
         android:gravity="center"
-        android:text="@string/refresh"
+        android:text="@string/openim_string_refresh"
         android:textColor="@android:color/darker_gray"
         android:textSize="@dimen/font_20sp"
         android:visibility="gone" />

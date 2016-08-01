@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:textColor="@color/gray"
+        android:textColor="@color/openim_color_gray"
         android:textSize="@dimen/font_12sp" />
 
     <LinearLayout
@@ -33,17 +33,17 @@
             android:id="@+id/tv_receive_body"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/chatfrom_bg"
+            android:background="@drawable/openim_chatfrom_bg"
             android:gravity="bottom"
             android:maxWidth="@dimen/dimen_230dp"
-            android:textColor="@color/gray"
+            android:textColor="@color/openim_color_gray"
             android:textSize="@dimen/font_14sp" />
 
         <ImageView
             android:id="@+id/iv_receive_image"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/chatfrom_bg"
+            android:background="@drawable/openim_chatfrom_bg"
             android:gravity="center_vertical"
             android:scaleType="fitXY"
             android:visibility="gone" />
@@ -52,17 +52,17 @@
             android:id="@+id/iv_receive_audio"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/chatfrom_bg"
+            android:background="@drawable/openim_chatfrom_bg"
             android:gravity="center_vertical"
             android:scaleType="fitXY"
-            android:src="@mipmap/chatfrom_voice_playing"
+            android:src="@drawable/openim_chatfrom_voice_playing"
             android:visibility="gone" />
 
         <ImageView
             android:id="@+id/iv_receive_location"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/chatfrom_bg"
+            android:background="@drawable/openim_chatfrom_bg"
             android:gravity="center_vertical"
             android:scaleType="fitXY"
             android:visibility="gone" />
@@ -90,10 +90,10 @@
                 android:id="@+id/tv_send_body"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/chatto_bg"
+                android:background="@drawable/openim_chatto_bg"
                 android:gravity="center_vertical"
                 android:maxWidth="@dimen/dimen_230dp"
-                android:textColor="@color/gray"
+                android:textColor="@color/openim_color_gray"
                 android:textSize="@dimen/font_14sp" />
             <!-- android:scaleType="fitXY" 气泡包裹图片 但是会产生形变 -->
 
@@ -101,7 +101,7 @@
                 android:id="@+id/iv_send_image"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/chatto_bg"
+                android:background="@drawable/openim_chatto_bg"
                 android:gravity="center_vertical"
                 android:scaleType="fitXY"
                 android:visibility="gone" />
@@ -110,17 +110,17 @@
                 android:id="@+id/iv_send_audio"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/chatto_bg"
+                android:background="@drawable/openim_chatto_bg"
                 android:gravity="center_vertical"
                 android:scaleType="fitXY"
-                android:src="@mipmap/chatto_voice_playing"
+                android:src="@drawable/openim_chatto_voice_playing"
                 android:visibility="gone" />
 
             <ImageView
                 android:id="@+id/iv_send_location"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/chatto_bg"
+                android:background="@drawable/openim_chatto_bg"
                 android:gravity="center_vertical"
                 android:scaleType="fitXY"
                 android:visibility="gone" />
@@ -133,7 +133,7 @@
             android:layout_alignBottom="@id/rl_send_body"
             android:layout_marginRight="@dimen/dimen_5dp"
             android:layout_toLeftOf="@id/rl_send_body"
-            android:text="@string/send_fail"
+            android:text="@string/openim_string_send_fail"
             android:textSize="@dimen/font_10sp" />
 
         <ImageView
@@ -143,7 +143,7 @@
             android:layout_alignBottom="@id/rl_send_body"
             android:layout_marginRight="@dimen/dimen_5dp"
             android:layout_toLeftOf="@id/rl_send_body"
-            android:background="@drawable/title_loading"
+            android:background="@drawable/openim_title_loading"
             android:visibility="gone" />
     </RelativeLayout>
 </LinearLayout>

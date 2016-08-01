@@ -10,13 +10,13 @@
         android:id="@+id/loadingImageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/dialog_progress_round" />
+        android:background="@drawable/openim_dialog_progress_round" />
 
     <TextView
         android:id="@+id/tv_loading"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="@string/loading" />
+        android:text="@string/openim_string_loading" />
 
 </LinearLayout>

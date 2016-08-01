@@ -14,7 +14,7 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="fill_parent"
-            android:background="@drawable/voice_rcd_hint_bg"
+            android:background="@drawable/openim_voice_rcd_hint_bg"
             android:gravity="bottom|center"
             android:minWidth="@dimen/dimen_140dp"
             android:orientation="horizontal"
@@ -26,7 +26,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/dimen_15dp"
                 android:layout_marginRight="@dimen/dimen_4dp"
-                android:src="@mipmap/voice_rcd_hint" />
+                android:src="@drawable/openim_voice_rcd_hint" />
 
             <ImageView
                 android:id="@+id/volume"
@@ -35,7 +35,7 @@
                 android:layout_gravity="bottom"
                 android:layout_marginBottom="@dimen/dimen_10dp"
                 android:layout_marginTop="@dimen/dimen_10dp"
-                android:src="@mipmap/amp1" />
+                android:src="@drawable/openim_amp1" />
         </LinearLayout>
 
         <ImageView
@@ -44,16 +44,16 @@
             android:layout_height="@dimen/dimen_30dp"
             android:layout_marginLeft="@dimen/dimen_10dp"
             android:layout_marginRight="@dimen/dimen_20dp"
-            android:background="@mipmap/voice_rcd_cancel_bg"
+            android:background="@drawable/openim_voice_rcd_cancel_bg"
             android:padding="@dimen/dimen_7dp"
-            android:src="@mipmap/rcd_cancel_icon" />
+            android:src="@drawable/openim_rcd_cancel_icon" />
 
         <LinearLayout
             android:id="@+id/del_re"
             android:layout_width="@dimen/dimen_140dp"
             android:layout_height="@dimen/dimen_140dp"
             android:layout_marginLeft="@dimen/dimen_10dp"
-            android:background="@mipmap/voice_rcd_cancel_bg_focused"
+            android:background="@drawable/openim_voice_rcd_cancel_bg_focused"
             android:gravity="center"
             android:orientation="vertical"
             android:visibility="gone">
@@ -62,7 +62,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:text="@string/cancel"
+                android:text="@string/openim_string_cancel"
                 android:textColor="@android:color/white"
                 android:textSize="@dimen/dimen_13dp" />
 
@@ -71,7 +71,7 @@
                 android:layout_width="@dimen/dimen_75dp"
                 android:layout_height="@dimen/dimen_75dp"
                 android:layout_marginTop="@dimen/dimen_12dp"
-                android:src="@mipmap/rcd_cancel_icon" />
+                android:src="@drawable/openim_rcd_cancel_icon" />
         </LinearLayout>
     </LinearLayout>
 
@@ -79,7 +79,7 @@
         android:id="@+id/voice_rcd_hint_loading"
         android:layout_width="@dimen/dimen_140dp"
         android:layout_height="@dimen/dimen_140dp"
-        android:background="@drawable/voice_rcd_hint_bg"
+        android:background="@drawable/openim_voice_rcd_hint_bg"
         android:gravity="center"
         android:orientation="horizontal"
         android:visibility="gone">
@@ -95,7 +95,7 @@
         android:id="@+id/voice_rcd_hint_tooshort"
         android:layout_width="@dimen/dimen_140dp"
         android:layout_height="@dimen/dimen_140dp"
-        android:background="@drawable/voice_rcd_hint_bg"
+        android:background="@drawable/openim_voice_rcd_hint_bg"
         android:gravity="center"
         android:orientation="vertical"
         android:visibility="gone">
@@ -103,13 +103,13 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@mipmap/voice_to_short" />
+            android:src="@drawable/openim_voice_to_short" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/dimen_15dp"
-            android:text="@string/too_short"
+            android:text="@string/openim_string_too_short"
             android:textColor="@android:color/white" />
     </LinearLayout>
 

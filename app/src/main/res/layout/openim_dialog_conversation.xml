@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="@dimen/dimen_20dp"
-        android:text="@string/friend_name"
+        android:text="@string/openim_string_friend_name"
         android:textSize="@dimen/font_22sp"
         android:textStyle="bold"
         android:textColor="@android:color/holo_blue_light"/>
@@ -25,7 +25,7 @@
         android:paddingLeft="@dimen/dimen_20dp"
         android:textSize="@dimen/font_20sp"
         android:textColor="@android:color/black"
-        android:text="@string/conversation_to_top"
+        android:text="@string/openim_string_conversation_to_top"
         android:paddingTop="@dimen/dimen_15dp"
         android:paddingBottom="@dimen/dimen_15dp"/>
     <View
@@ -39,7 +39,7 @@
         android:paddingLeft="@dimen/dimen_20dp"
         android:textSize="@dimen/font_20sp"
         android:textColor="@android:color/black"
-        android:text="@string/conversation_delete"
+        android:text="@string/openim_string_conversation_delete"
         android:paddingTop="@dimen/dimen_15dp"
         android:paddingBottom="@dimen/dimen_15dp"/>
 </LinearLayout>
